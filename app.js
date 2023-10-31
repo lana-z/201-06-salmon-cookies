@@ -8,6 +8,17 @@ const Seattle = {
     getRandomNumOfCustomers: function() {
       return Math.floor( Math.random() * (this.maxCustomer - this.minCustomer + 1) + this.minCustomer );
     }
+
+    hourlyCookies: function() {
+      const cookiesPerHour = [];
+      for (let hour = 6; hour < 19; hour++) {
+          const customers = this.getRandomNumOfCustomers();
+          const cookiesSold = (customers * this.avgCookie);
+          cookiesPerHour.push(cookiesSold);
+      }
+      return cookiesPerHour;
+  }
+
 };
 
 let customersSeattle = Seattle.getRandomNumOfCustomers();
@@ -72,5 +83,5 @@ const Lima = {
 let customersLima = Lima.getRandomNumOfCustomers();
 console.log(`Random number of customers in ${Lima.city}: ${customersLima}`);
 
-
+function hourlyCookies
 
