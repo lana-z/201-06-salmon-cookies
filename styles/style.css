@@ -29,8 +29,8 @@ nav ul li {
     vertical-align: middle;
 }
 
-img {
-    align-items: center;
+div.salmon-image-div {
+    text-align: center;
 }
 
 #root {
