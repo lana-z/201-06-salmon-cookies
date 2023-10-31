@@ -1,0 +1,50 @@
+
+header {
+    background-color: 	#202020;
+
+}
+h1 {
+    color: salmon;
+    font-family: righteous;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav {
+    background-color: salmon;
+    color: blue;
+    height: 60px;
+}
+
+nav ul {
+    text-align: left;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    font-family: none;
+    padding: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+img {
+    align-items: center;
+}
+
+#root {
+    border-top: 2px solid black;
+}
+
+div {
+    
+}
+
+main ul {
+
+}
+
+footer {
+    text-align: center;
+}
