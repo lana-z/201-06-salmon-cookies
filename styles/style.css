@@ -71,6 +71,31 @@ div.salmon-image-div {
     padding-left: 60px;
 }
 
+
+table * {
+    border: 1px solid #111;
+    padding: .5em;
+  }
+  
+  table thead {
+    background: salmon;
+    color: #111;
+  }
+  
+  table tbody td {
+    background: #111;
+    color: ivory;
+  }
+
+  table cell {
+    text-align: center;
+  }
+  
+  table tfoot {
+    background: darkgrey;
+    color: whitesmoke;
+  }
+
 footer {
     text-align: center;
     background-color: grey;

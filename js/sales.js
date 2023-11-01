@@ -1,8 +1,30 @@
 
 
-let hours = ["6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm"];
+
+let Stores = [Seattle, Tokyo, Dubai, Paris, Lima]
+
+let tableCity = document.getElementById("city");
+let cityRow = document.createElement('tr');
+body.appendChild(cityRow);
+
+let nameCell = document.createElement('td');
+nameCell.textContent = this.name;
+cityRow.appendChild(nameCell);
+
+let breedCell = document.createElement('td');
+breedCell.textContent = this.breed;
+dogRow.appendChild(breedCell);
+
+for( let i = 0; i < this.Stores.length; i++ ) {
+ let cell = document.createElement("td");
+ cell.textContent = this.isGoodWith[i].toString();
+ dogRow.appendChild(cell);
+}
 
 
+
+
+/* 
 const Seattle = {
     city: "Seattle",
     minCustomer: 23,
@@ -165,3 +187,4 @@ for( let i=0; i < stores.length; i++ ) {
 stores[i].estimate();
 stores[i].render();
 }
+*/
