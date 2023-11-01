@@ -1,6 +1,6 @@
-# LAB 201-class-06
+# LAB 201-class-06-07
 
-## Salmon Cookies
+## Salmon Cookies, last update: Tuesday
 
 This is the salmon cookies lab, class 06, October 30, 2023.
 
@@ -8,8 +8,8 @@ This is the salmon cookies lab, class 06, October 30, 2023.
 
 ### Links and Resources
 
-* John's demo
-* Paired up and with Kim for quite a bit of this, also Ne joined us for a bit
+* John's demo and code review
+* Paired up and with Kim for work on monday branch
 * chatGPT
 
 ### Lighthouse Accessibility Report Score
@@ -18,5 +18,4 @@ This is the salmon cookies lab, class 06, October 30, 2023.
 
 
 ### Reflections and Comments
-
-* 
+* Making some progress. In-class code review was very helpful.
