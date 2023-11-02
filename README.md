@@ -17,6 +17,8 @@ This is the salmon cookies lab, class 06, October 30, 2023.
 
 ![Lighthouse score of 90](lighthouse-salmon.png)
 
+Wednesday - ![Lighthouse score of 84](lighthouse-cookie.png)
+
 
 ### Reflections and Comments
 * Making some progress. In-class code review was very helpful.
