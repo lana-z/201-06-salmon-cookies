@@ -1,4 +1,18 @@
+const lightDark = document.getElementById("ldm-button");
+const body = document.body;
 
+
+function lightDarkMode() {
+    if (body.classList.contains("light-mode")) {
+        body.classList.remove("light-mode");
+        body.classList.add("dark-mode");
+    } else {
+        body.classList.remove("dark-mode");
+        body.classList.add("light-mode");
+    }
+}
+
+lightDark.addEventListener("click", lightDarkMode);
 
 const Seattle = {
   city: "Seattle",

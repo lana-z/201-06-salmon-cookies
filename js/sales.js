@@ -86,3 +86,4 @@ dubai.render();
 paris.render();
 lima.render();
 renderTotals();
+
