@@ -28,3 +28,8 @@ Wednesday - ![Lighthouse score of 84](lighthouse-cookie.png)
 * Not sure if supposed to push to Tuesday or Wednesday branch so doing both.
 
 * Added toggle button
+
+* Thurs: 
+    - Fixed some styling issues in css
+    - Added new store form
+    - Still working on removing table footer row before rendering next city and getting the right new total number.
