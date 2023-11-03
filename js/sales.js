@@ -87,3 +87,25 @@ paris.render();
 lima.render();
 renderTotals();
 
+document.getElementById('new-store-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent form submission's default behavior
+
+    // Get the form input values
+    const location = document.getElementById('location').value;
+    const minCust = parseInt(document.getElementById('min-cust').value);
+    const maxCust = parseInt(document.getElementById('max-cust').value);
+    const avgCookie = parseFloat(document.getElementById('avg-cookie').value);
+
+    // Create a new instance of the store
+    const newStoreLocation = new City(location, minCust, maxCust, avgCookie);
+    newStoreLocation.cookieTime(); // Calculate hourly sales
+
+    // Render the new store location
+    newStoreLocation.render();
+
+    // Update the totals in the footer row
+    renderTotals();
+    
+    // Reset the form fields
+    document.getElementById('new-store-form').reset();
+});

@@ -8,53 +8,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
+</head>
 <body>
-    <body>
-        <header>
-            <h1>Welcome to Pat's Salmon Cookies!</h>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sales.html">Sales Data</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <h1>Welcome to Pat's Salmon Cookies!</h>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sales.html">Sales Data</a></li>
+            <li><button id="ldm-button">Light/Dark Mode</button></li>
+        </ul>
+
+    </nav>
 
     <main>
         <div class="salmon-image-div">
             <img src="assets/salmon-201-lab-02.png" alt="Salmon">
 
         </div>
-         
-        <section id="root">
+        <div id=sales-data>
+            <div id="new-store-div">
+                <fieldset>
+                    <form id="new-store-form">
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" required>
+                
+                        <label for="min-cust">Min Customers/Hr:</label>
+                        <input type="number" id="min-cust" required>
+                
+                        <label for="max-cust">Max Customers/Hr:</label>
+                        <input type="number" id="max-cust" required>
+                
+                        <label for="avg-cookie">Avg Cookies/Customer:</label>
+                        <input type="number" step="0.1" id="avg-cookie" required>
+                
+                        <button type="submit">Open a new location!</button>
+                    </form>
+                </fieldset>
+            </div>
 
-            <table>
-                <thead>Sales Data</thead>
-                <tbody id="tbody">
-                    <tr>
-                        <th></th>
-                        <th>6am</th>
-                        <th>7am</th>
-                        <th>8am</th>
-                        <th>9am</th>
-                        <th>10am</th>
-                        <th>11am</th>
-                        <th>12pm</th>
-                        <th>1pm</th>
-                        <th>2pm</th>
-                        <th>3pm</th>
-                        <th>4pm</th>
-                        <th>5pm</th>
-                        <th>6pm</th>
-                        <th>7pm</th>
-                        <th>Totals</th>
-                    </tr>
-                </tbody>
-                <tfoot id="tfoot"></tfoot>
-            </table>
+            <section id="root">
 
-        </section>
+                <table>
+                    <thead></thead>
+                    <tbody id="tbody">
+                        <tr>
+                            <th>Locations</th>
+                            <th>6am</th>
+                            <th>7am</th>
+                            <th>8am</th>
+                            <th>9am</th>
+                            <th>10am</th>
+                            <th>11am</th>
+                            <th>12pm</th>
+                            <th>1pm</th>
+                            <th>2pm</th>
+                            <th>3pm</th>
+                            <th>4pm</th>
+                            <th>5pm</th>
+                            <th>6pm</th>
+                            <th>7pm</th>
+                            <th>Location Totals</th>
+                        </tr>
+                    </tbody>
+                    <tfoot id="tfoot"></tfoot>
+                </table>
 
+            </section>
+        </div>
+        
     </main>
    
     <footer>
